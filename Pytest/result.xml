@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="3" time="0.098" timestamp="2024-11-04T14:52:37.734651-06:00" hostname="LAPTOP-RP7PCHJ7"><testcase classname="test_Results_in_XML" name="test_greater" time="0.001"><failure message="assert 100 &gt; 100">@pytest.mark.great
+    def test_greater():
+        num = 100
+&gt;       assert num &gt; 100
+E       assert 100 &gt; 100
+
+test_Results_in_XML.py:12: AssertionError</failure></testcase><testcase classname="test_Results_in_XML" name="test_greate_equale" time="0.000" /><testcase classname="test_Results_in_XML" name="test_less" time="0.000" /></testsuite></testsuites>
